@@ -7,6 +7,56 @@
 
     }
 
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        display: none
+    }
+
+    .sidebar .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px;
+        cursor: pointer;
+    }
+
+    .sidebar .close:hover {
+        background-color: #ccc;
+    }
+
+    #main #header {
+        padding: 0 !important;
+    }
+
+    #header .header-pc {
+        padding: 0 16px;
+    }
+
+    #header .header-pc i {
+        padding: 0 4px;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    .navbars {
+        position: fixed !important;
+        left: 0;
+        bottom: 0;
+        display: block !important;
+        width: 250px !important;
+        overflow-y: hidden !important;
+        z-index: 10000 !important;
+        background-color: #fff;
+    }
+
 
     #header .header-mobile {
         background-color: #000;
@@ -31,12 +81,10 @@
 
     }
 
-    #nav {
-        display: none;
-    }
-
     #content .product-grid {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
     }
+
+
 }

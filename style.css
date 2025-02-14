@@ -27,15 +27,10 @@ body {
 
 
 
-#nav .brand-shop {
-    padding: 16px;
-}
-
-#nav .brand-shop h3 {
+#nav .logo {
+    padding: 24px;
+    margin: 0;
     font-size: 24px;
-    margin: 10px 0;
-    text-transform: uppercase;
-    letter-spacing: 4px;
 }
 
 #nav .sidebar .menu {
@@ -72,7 +67,7 @@ body {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #757575 !important;
-    font-weight: 500;
+    font-weight: 700;
     width: 100%;
 }
 
@@ -98,7 +93,6 @@ body {
 #header .logo {
     font-size: 24px;
     margin: 24px 0;
-
 }
 
 #content {
@@ -227,6 +221,14 @@ body {
     margin: 6px 0;
 }
 
+#footer .row .send-form {
+    cursor: pointer;
+}
+
+#footer .row .send-form:hover {
+    background-color: #ccc;
+    color: #000;
+}
 
 .row-center {
     text-align: center;
