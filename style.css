@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+#container {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+
+#nav .brand-shop {
+    padding: 16px;
+}
+
+#nav .brand-shop h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#nav .sidebar .menu {
+    padding: 64px 0;
+}
+
+.menu .sub-menu {
+    display: none;
+}
+
+.menu .sub-menu {
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.menu .show {
+    display: block;
+    color: #000 !important;
+}
+
+#nav .sidebar .link-jeans .active {
+    color: #000 !important;
+    font-weight: 700;
+}
+
+#nav .sidebar .menu-item {
+    list-style: none;
+}
+
+#nav .sidebar .menu-link {
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #757575 !important;
+    font-weight: 500;
+    width: 100%;
+}
+
+
+
+#nav .sidebar .menu-link:hover {
+    background-color: #ccc;
+}
+
+#header {
+    padding: 0 16px;
+}
+
+#header .icons {
+    float: right;
+}
+
+#header .logo {
+    display: inline-block;
+}
+
+#header .icons,
+#header .logo {
+    font-size: 24px;
+    margin: 24px 0;
+
+}
+
+#content {
+    position: relative;
+
+}
+
+#content .content-section img {
+    width: 100%;
+    padding: 0 16px;
+}
+
+#content .section-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 24px 48px;
+}
+
+#content .section-heading h1 {
+    margin: 10px 0;
+}
+
+#content .section-heading button {
+    border: none;
+    margin: 15px 0;
+}
+
+#content .section-heading a {
+    margin: 15px 0;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#content .section-heading .heading-title {
+    font-size: 64px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#content .section-heading .heading-sub-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+
+#content .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#content .quantity-item {
+    margin: 15px 0;
+    color: rgb(117, 117, 117);
+    padding: 0 16px;
+}
+
+.product-grid .item {
+    padding: 0 16px;
+}
+
+.product-grid .item .item-info {
+    margin: 15px 0;
+}
+
+.product-grid .item img {
+    width: 100%;
+    filter: grayscale(70%) !important;
+}
+
+
+#content .section-subscribe {
+    padding: 32px 16px;
+    background-color: #000;
+}
+
+.section-subscribe .subscribe-title {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.section-subscribe p {
+    margin: 15px 0;
+    color: #fff;
+}
+
+.section-subscribe .email-subscribe {
+    padding: 8px;
+    width: 100%;
+
+}
+
+.section-subscribe .send-subscribe {
+    font-size: 15px;
+    background-color: #f44336;
+    display: block;
+    padding: 8px 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-subscribe .send-subscribe:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#footer .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 64px 0;
+    background-color: #f1f1f1;
+}
+
+#footer .row .col {
+    padding: 0 8px;
+}
+
+.row-margin {
+    margin: 6px 0;
+}
+
+
+.row-center {
+    text-align: center;
+
+}
+
+#footer .row .row-margin-small {
+    margin: 10px;
+    font-size: 12px;
+}
+
+#footer .row a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+#footer .row h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer .row .send-form {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+#footer .row input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+#footer .author {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 24px 0;
+}
