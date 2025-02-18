@@ -25,7 +25,9 @@ body {
     overflow-y: scroll;
 }
 
-
+.close {
+    display: none;
+}
 
 #nav .logo {
     padding: 24px;

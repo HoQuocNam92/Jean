@@ -24,3 +24,5 @@ closeBars.addEventListener('click', function(){
     overlay.style.display = 'none';
     SideBar.classList.toggle('navbars');
 });
+
+ 
